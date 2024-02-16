@@ -8,7 +8,7 @@ const devOnlyPlugins = [getStartedPlugin()]
 
 export default defineConfig({
   name: 'default',
-  title: 'TILog',
+  title: 'TILog-back',
 
   projectId: '2j21rinx',
   dataset: 'production',
@@ -19,4 +19,3 @@ export default defineConfig({
     types: schemaTypes,
   },
 })
-
