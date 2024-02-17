@@ -59,4 +59,10 @@ export default {
       ],
     },
   ],
+  preview: {
+    select: {
+      title: 'userid',
+      subtitle: 'name',
+    },
+  },
 }

@@ -10,6 +10,11 @@ export default {
       to: [{type: 'user'}],
     },
     {
+      title: 'Description',
+      name: 'description',
+      type: 'string',
+    },
+    {
       title: 'Photo',
       name: 'photo',
       type: 'image',
@@ -52,4 +57,20 @@ export default {
       ],
     },
   ],
+  preview: {
+    select: {
+      title: 'description',
+      authorId: 'author.userid',
+      authorName: 'author.name',
+      media: 'photo',
+    },
+    prepare(selection) {
+      const {title, authorId, authorName, media} = selection
+      return {
+        title,
+        subtitle: `by ${authorId} (${authorName})`,
+        media,
+      }
+    },
+  },
 }

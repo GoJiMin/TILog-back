@@ -6,10 +6,10 @@ settings:
 
 dependencies:
   '@sanity/icons':
-    specifier: ^2.6.0
+    specifier: ^2.10.2
     version: 2.10.2(react@18.2.0)
   '@sanity/ui':
-    specifier: ^2.0.0
+    specifier: ^2.0.2
     version: 2.0.2(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8)
   '@sanity/vision':
     specifier: ^3.29.0
@@ -27,7 +27,7 @@ dependencies:
     specifier: ^3.29.0
     version: 3.29.0(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)
   styled-components:
-    specifier: ^6.0.7
+    specifier: ^6.1.8
     version: 6.1.8(react-dom@18.2.0)(react@18.2.0)
 
 devDependencies:
@@ -35,16 +35,16 @@ devDependencies:
     specifier: ^3.0.1
     version: 3.0.1(eslint@8.56.0)(typescript@5.3.3)
   '@types/react':
-    specifier: ^18.0.25
+    specifier: ^18.2.55
     version: 18.2.55
   eslint:
-    specifier: ^8.6.0
+    specifier: ^8.56.0
     version: 8.56.0
   prettier:
-    specifier: ^3.0.2
+    specifier: ^3.2.5
     version: 3.2.5
   typescript:
-    specifier: ^5.1.6
+    specifier: ^5.3.3
     version: 5.3.3
 
 packages:
@@ -2123,7 +2123,7 @@ packages:
   /@sanity/block-tools@3.29.0:
     resolution: {integrity: sha512-TnR3Utu3ClHzMUJPXJnDOBY0VhRhTJiTLCcKdPjOK8K9q7oGCL6dNeGF65quiYc01qtpWaRMsmcXTcrhQzzr7Q==}
     dependencies:
-      get-random-values-esm: 1.0.1
+      get-random-values-esm: 1.0.2
       lodash: 4.17.21
     dev: false
 
@@ -2425,7 +2425,7 @@ packages:
     engines: {node: '>=18'}
     dependencies:
       '@sanity/types': 3.29.0
-      get-random-values-esm: 1.0.1
+      get-random-values-esm: 1.0.2
       moment: 2.30.1
     transitivePeerDependencies:
       - supports-color
@@ -4323,8 +4323,8 @@ packages:
       - supports-color
     dev: false
 
-  /get-random-values-esm@1.0.1:
-    resolution: {integrity: sha512-y2/757I+S14oDnPDo2GD1X5ghvhuoCOYcCsndgzWpX4LjwL1gIsmuqCuaBAR4Avi77IWxnfQHP7eUBvztwFh/w==}
+  /get-random-values-esm@1.0.2:
+    resolution: {integrity: sha512-HMSDTgj1HPFAuZG0FqxzHbYt5JeEGDUeT9r1RLXhS6RZQS8rLRjokgjZ0Pd28CN0lhXlRwfH6eviZqZEJ2kIoA==}
     dependencies:
       get-random-values: 1.2.2
     dev: false
@@ -6176,7 +6176,7 @@ packages:
       exif-component: 1.0.1
       framer-motion: 11.0.5(react-dom@18.2.0)(react@18.2.0)
       get-it: 8.4.6
-      get-random-values-esm: 1.0.1
+      get-random-values-esm: 1.0.2
       groq-js: 1.4.1
       hashlru: 2.3.0
       history: 5.3.0
