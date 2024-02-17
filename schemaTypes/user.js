@@ -29,7 +29,7 @@ export default {
       type: 'array',
       of: [
         {
-          type: reference,
+          type: 'reference',
           to: [{type: 'user'}],
         },
       ],
@@ -41,7 +41,7 @@ export default {
       type: 'array',
       of: [
         {
-          type: reference,
+          type: 'reference',
           to: [{type: 'user'}],
         },
       ],
@@ -53,7 +53,7 @@ export default {
       type: 'array',
       of: [
         {
-          type: reference,
+          type: 'reference',
           to: [{type: 'post'}],
         },
       ],
