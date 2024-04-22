@@ -52,6 +52,11 @@ export default {
               name: 'comment',
               type: 'string',
             },
+            {
+              title: 'CreatedAt',
+              name: 'createdAt',
+              type: 'string',
+            },
           ],
         },
       ],
