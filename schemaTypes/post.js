@@ -55,7 +55,7 @@ export default {
             {
               title: 'CreatedAt',
               name: 'createdAt',
-              type: 'string',
+              type: 'datetime',
             },
           ],
         },
